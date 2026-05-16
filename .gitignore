@@ -1,0 +1,50 @@
+# Large files
+*.fasta
+*.fa
+*.gz
+*.treefile
+*.contree
+*.iqtree
+*.log
+*.mldist
+*.splits.nex
+*.ufboot
+*.bionj
+*.model.gz
+*.ckp.gz
+
+# Intermediate files
+*aligned*
+*trimmed*
+*for_tree*
+
+# Tool directories
+tools/
+iqtree-*/
+mafft-*/
+hmmer*/
+trimAI/
+PearTree/
+
+# Data directories
+AGC_protein/
+AGCgeneID/
+phylogeny/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# PowerShell
+*.ps1
+
+# OS files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# Logs
+*.log
+*.out
